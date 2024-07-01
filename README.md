@@ -30,6 +30,8 @@ Source (Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunp
 2. **Create a Resource Group:** 'tokyo-olympic-data' to house and manage all the Azure resources associated with this project.
 3. **Set Up a Storage Account:** Specifically configured to leverage Azure Data Lake Storage (ADLS) Gen2 capabilities.
 4. **Create a Container:** Inside this storage account to hold the project's data. Two directories, 'raw-data' and 'transformed-data', are created to store raw data and transformed data.
+<img width="959" alt="Blob storage" src="https://github.com/FarhanAK20/Olympics-Data-Analytics/assets/86559747/bb36758b-9552-4927-afa4-f6f1487b8893">
+
 
 ### Data Ingestion using Azure Data Factory
 
@@ -43,6 +45,8 @@ Source (Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunp
 8. **Repeat the Above Steps:** To load all the datasets.
 9. **Run the Pipeline:** Connect all the copy data activities together and run them all at once.
 10. **Validate the Data:** After the pipeline completes its execution, navigate to your Azure Data Lake Storage Gen2. Check the "raw_data" folder to ensure that the files, like "athletes.csv", "medals.csv", etc., are present and populated with the expected data.
+![datafactory_pipeline](https://github.com/FarhanAK20/Olympics-Data-Analytics/assets/86559747/729a64b7-856c-4e32-95c4-710b6d052373)
+
 
 ### Data Transformation using Azure Databricks
 
