@@ -1,4 +1,4 @@
-# Tokyo Olympics Data Engineering and Analytical Project
+# Tokyo Olympics 2020 Data Engineering and Analytical Project
 
 ## Description
 
